@@ -1,6 +1,14 @@
 import { Play } from 'lucide-react';
 
 const videos = [
+    {
+    id: 'CnvL7sjaqTM',
+    title: 'Monthly Quiz Award Ceremony'
+  },
+  {
+    id: 'YnRLYM6vi5A',
+    title: 'Kindergarten(KG) learners received shoes and bags as awards'
+  },
   {
     id: 'TJHCin9zbLQ',
     title: 'HKAF Impact Story'

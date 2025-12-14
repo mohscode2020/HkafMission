@@ -20,6 +20,56 @@ export default function HappeningsSection() {
             We are pleased to share updates on the impact of your generosity. Your support continues to transform lives and raise future leaders rooted in Kingdom values.
           </p>
         </div>
+      
+    <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+            <img
+              src="/shoesandbagsdonations.jpeg"
+              alt="Shoes and BagsDonation"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h4 className="text-xl font-bold text-[#7B5BA7] mb-2">
+                Kindergarten(KG) Support
+              </h4>
+              <p className="text-gray-700">
+                Kindergarten(KG) learners received shoes and bags as awards for punctuality, completing homework, and doing assignments. 
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+            <img
+              src="/shoes_donation_primarySch.jpeg"
+              alt="shoes_donation_primarySch"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h4 className="text-xl font-bold text-[#7B5BA7] mb-2">
+                Award for Quiz Winners
+              </h4>
+              <p className="text-gray-700">
+                Winners of our monthly quiz were awarded with shoes and Bags.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+            <img
+              src="/staff_donation.jpeg"
+              alt="Child Support"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h4 className="text-xl font-bold text-[#7B5BA7] mb-2">
+                Encouraging Positive Learning Habits
+              </h4>
+              <p className="text-gray-700">
+                The initiative supports young learners by providing shoes and bags as a means of encouragement.
+              </p>
+            </div>
+          </div>
+        </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
