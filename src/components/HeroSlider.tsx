@@ -67,18 +67,23 @@ export default function HeroSlider() {
         </div>
       </div>
 
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-30 bg-white/30 hover:bg-white/50 backdrop-blur-sm p-2 rounded-full transition-all"
-      >
-        <ChevronLeft className="text-white" size={32} />
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-30 bg-white/30 hover:bg-white/50 backdrop-blur-sm p-2 rounded-full transition-all"
-      >
-        <ChevronRight className="text-white" size={32} />
-      </button>
+     <button
+  onClick={prevSlide}
+  className="absolute left-4 bottom-32 md:top-1/2 md:-translate-y-1/2
+             z-30 bg-white/30 hover:bg-white/50 backdrop-blur-sm
+             p-2 rounded-full transition-all"
+>
+  <ChevronLeft className="text-white" size={28} />
+</button>
+
+<button
+  onClick={nextSlide}
+  className="absolute right-4 bottom-32 md:top-1/2 md:-translate-y-1/2
+             z-30 bg-white/30 hover:bg-white/50 backdrop-blur-sm
+             p-2 rounded-full transition-all"
+>
+  <ChevronRight className="text-white" size={28} />
+</button>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 flex space-x-3">
         {slides.map((_, index) => (
